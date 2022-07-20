@@ -1,0 +1,17 @@
+name: CommonLib
+version: 1.27.6.6
+main: ru.den_abr.commonlib.CommonLib
+load: STARTUP
+authors:
+ - Den_Abr
+depend:
+ - ProtocolLib
+api-version: 1.13
+softdepend:
+ - SimplePerms
+ - HolographicDisplays
+ - PlaceholderAPI
+ - ViaVersion
+ - ProtocolSupport
+loadbefore:
+ - Vault
